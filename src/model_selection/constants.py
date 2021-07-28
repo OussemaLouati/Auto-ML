@@ -1,0 +1,111 @@
+
+CLASSIFICATION_METRICS={
+            "ACCURACY" : "Accuracy score",
+            "ROC_AUC"    : "ROC_AUC score",
+            "F1"    : "F1 score",
+            "AP"   : "Average precision score",
+            "PRECISION"  : "Precision score",
+            "RECALL"    : "Recall score",
+            "NLL"   : "neg Log loss",
+            "ROC_AUC_MICRO"    : "ROC_AUC MICRO score",
+            "ROC_AUC_MACRO"   : "ROC_AUC MACRO score",
+            "F1_MICRO"     : "F1 MICRO score",
+            "F1_MACRO"    : "F1 MACRO score",
+            "F1_WEIGHTED"    : "F1 WEIGHTED score",
+            "PRECISION_MICRO"  : "Precision MICRO score",
+            "PRECISION_MACRO"  : "Precision MACRO score",
+            "PRECISION_WEIGHTED"  : "Precision WEIGHTED score",
+            "RECALL_MICRO"    : "RECALL MICRO score",
+            "RECALL_MACRO"    : "RECALL MACRO score",
+            "RECALL_WEIGHTED"    : "RECALL WEIGHTED score",
+            "COHEN_KAPPA_SCORE":"COHEN KAPPA score",
+            "BA":"Balanced accuracy score" }
+    
+REGRESSION_METRICS={
+    "EV":"Explained variance score - EV",
+    "MSE": "neg Mean squared error - MSE",
+    "MeAE": "neg Median absolute error - MeAE",
+    "R2":'R2 score',
+    "MSLE":'neg Mean squared log error - MSLE',
+    "RMSLE":'neg Root mean squared log error - RMSLE',
+    "RMSE":"neg Root mean squared error - RMSE " ,
+    "MAE":"neg Mean absolute error - MAE"}
+
+METRIC_CLASSES ={
+            "ACCURACY" : "accuracy_score",
+            "ROC_AUC"    : "roc_auc_score",
+            "F1"    : "f1_score",
+            "AP"   : "average_precision_score",
+            "PRECISION"  : "precision_score",
+            "RECALL"    : "recall_score",
+            "NLL"   : "log_loss",
+            "ACCURACY"     : "accuracy_score",
+            "ROC_AUC"    : "roc_auc_score",
+            "ROC_AUC_MICRO"    : "roc_auc_score",
+            "ROC_AUC_MACRO"   : "roc_auc_score",
+            "F1"    : "f1_score",
+            "F1_MICRO"     : "f1_score",
+            "F1_MACRO"    : "f1_score",
+            "F1_WEIGHTED"    : "f1_score",
+            "PRECISION"  : "precision_score",
+            "PRECISION_MICRO"  : "precision_score",
+            "PRECISION_MACRO"  : "precision_score",
+            "PRECISION_WEIGHTED"  : "precision_score",
+            "RECALL"    : "recall_score",
+            "RECALL_MICRO"    : "recall_score",
+            "RECALL_MACRO"    : "recall_score",
+            "RECALL_WEIGHTED"    : "recall_score",
+            "COHEN_KAPPA_SCORE":"cohen_kappa_score",
+            "BA":"balanced_accuracy_score" ,
+            "EV"     : "explained_variance_score",
+            "MAE"    : "mean_absolute_error",
+            "MSE"    : "mean_squared_error",
+            "MSLE"   : "mean_squared_log_error",
+            "MeAE"   : "median_absolute_error",
+            "R2"     : "r2_score",
+            "RMSE"   : "mean_squared_error",
+            "RMSLE"  : "mean_squared_log_error"
+        }
+
+
+TUNERS={
+    0:"no_tuning",
+    2:"grid",
+    1:"random",
+    3:'uniform',
+    4:'gp',
+    5:'gp_ei'}
+
+
+KERAS_METRICS={
+            'MSE': "MeanSquaredError",
+            'RMSE': "RootMeanSquaredError",
+            'MAE' : "MeanAbsoluteError",
+            'MSLE':  "MeanSquaredLogarithmicError",
+            'EV':  "RootMeanSquaredError",
+            "MeAE": "RootMeanSquaredError",
+            "R2":'RootMeanSquaredError',
+            "RMSLE":'MeanSquaredLogarithmicError',
+            "ACCURACY"     : "Accuracy",
+            "ROC_AUC"    : "AUC",
+            "AP"   : "Precision",
+            "PRECISION"  : "Precision",
+            "NLL"   : "Accuracy",
+            "ROC_AUC_MICRO"    : "AUC",
+            "ROC_AUC_MACRO"   : "AUC",
+            "F1"    : "Accuracy",
+            "F1_MICRO"     : "Accuracy",
+            "F1_MACRO"    : "Accuracy",
+            "F1_WEIGHTED"    : "f1_score",
+            "PRECISION_MICRO"  : "Precision",
+            "PRECISION_MACRO"  : "Precision",
+            "PRECISION_WEIGHTED"  : "Precision",
+            "RECALL"    : "Recall",
+            "RECALL_MICRO"    : "Recall",
+            "RECALL_MACRO"    : "Recall",
+            "RECALL_WEIGHTED"    : "Recall",
+            "COHEN_KAPPA_SCORE":"Accuracy",
+            "BA":"balanced_accuracy_score"
+   
+    }
+

@@ -1,0 +1,4 @@
+featuretools
+featuretools[nlp_primitives]
+featuretools[autonormalize]
+progressbar
